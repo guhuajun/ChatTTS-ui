@@ -1,4 +1,4 @@
-FROM pytorch/torchserve:0.11.0-gpu as builder
+FROM 192.168.0.96:5000/pytorch/torchserve:0.11.0-gpu AS builder
 
 WORKDIR /app
 
